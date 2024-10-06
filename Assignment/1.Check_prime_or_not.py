@@ -6,7 +6,6 @@ def is_prime(number):
         for n in range(2,int(number**0.5)+1):
             if number % n == 0:
                 return (f"{number} is not a prime number")
-                break
         return f"{number} is a prime number"
 
 Number=int(input("Enter a number: "))
